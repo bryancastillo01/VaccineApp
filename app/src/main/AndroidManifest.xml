@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.misiontic2022.aplicacionnueva">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplicacionNueva">
+
+        <activity
+            android:name=".VistaSinovac"
+            android:exported="false" />
+        <activity
+            android:name=".VistaModerna"
+            android:exported="false" />
+        <activity
+            android:name=".VistaAstrazeneca"
+            android:exported="false" />
+        <activity
+            android:name=".VistaJanssen"
+            android:exported="false" />
+        <activity
+            android:name=".VistaSinopharm"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotVista"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterVista"
+            android:exported="false" />
+        <activity
+            android:name=".VistaCatalogoVacunas"
+            android:exported="false" />
+        <activity
+            android:name=".VistaPfizer"
+            android:exported="false" />
+        <activity
+            android:name=".LoginVista"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AplicacionNueva</string>
+    <string name="catalogo_de_vacunas">CATALOGO DE VACUNAS</string>
+    <string name="vaccinelabapp">VaccineLabApp</string>
+    <string name="todo">TODO</string>
+    <string name="uno">TODO</string>
+    <string name="dos">TODO</string>
+    <string name="tres">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="cuatro">TODO</string>
+    <string name="cinco">TODO</string>
+    <string name="enviar_contrase_a">Enviar contraseña</string>
+</resources>
