@@ -10,4 +10,5 @@
     <string name="cuatro">TODO</string>
     <string name="cinco">TODO</string>
     <string name="enviar_contrase_a">Enviar contraseña</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAimQ_2kE0DPV7pzW_BAcAPdqiUfnM-78Q</string>
 </resources>

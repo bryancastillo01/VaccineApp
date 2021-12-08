@@ -15,7 +15,19 @@ class VistaCatalogoVacunas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_catalogo_vacunas)
-        /*btnIrSinovac.setOnClickListener {
+        btnConocenos.setOnClickListener {
+            val intent: Intent = Intent(this, VistaConocenos::class.java)
+            startActivity(intent)
+        }
+        btnMapas.setOnClickListener {
+            val intent: Intent = Intent(this,VistaMapa::class.java)
+            startActivity(intent)
+        }
+        btnperfil.setOnClickListener {
+            val intent: Intent = Intent(this, VistaPerfil::class.java)
+            startActivity(intent)
+        }
+        btnIrSinovac.setOnClickListener {
             val intent: Intent = Intent(this,VistaSinovac::class.java)
             startActivity(intent)
         }
@@ -31,13 +43,13 @@ class VistaCatalogoVacunas : AppCompatActivity() {
             val intent: Intent = Intent(this,VistaSinopharm::class.java)
             startActivity(intent)
         }
-        btnIrAstrazeneca.setOnClickListener {
+        btnIrAztrazeneca.setOnClickListener {
             val intent: Intent = Intent(this,VistaAstrazeneca::class.java)
             startActivity(intent)
         }
         btnIrJanssen.setOnClickListener {
             val intent: Intent = Intent(this,VistaJanssen::class.java)
             startActivity(intent)
-        }*/
+        }
     }
 }

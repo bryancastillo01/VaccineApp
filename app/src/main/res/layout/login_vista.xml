@@ -4,32 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/azulC"
-    android:gravity="bottom|top"
+    android:background="@color/azul2"
+    android:gravity="bottom|center|top"
     android:orientation="vertical"
     tools:context=".LoginVista">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:backgroundTint="@color/azulC"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="66dp"
-            android:background="@color/azul2"
-            android:text="@string/vaccinelabapp"
-            android:textAlignment="center"
-            android:textColor="#FFD759"
-            android:textSize="34sp" />
-    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/whatsapp_image_2021_11_20_at_6_31_49_pm" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,10 +60,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:background="@color/design_default_color_primary"
                     android:onClick="login"
                     android:text="Iniciar sesión"
-                    android:textColor="@android:color/white" />
+                    android:textColor="@android:color/white"
+                    app:cornerRadius="30dp" />
 
                 <TextView
                     android:layout_width="match_parent"
